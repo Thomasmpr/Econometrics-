@@ -118,3 +118,35 @@ The workflow consists of:
 ---
 
 ## Repository Structure
+
+The repository is organized into several folders containing the data, econometric analysis, and supporting materials used throughout the project.
+
+### data
+
+This folder contains the dataset used for the econometric analysis.
+
+It includes the **CFTC Disaggregated Futures-and-Options report**, which provides weekly information about trader positions in the oil futures market. These data are used to construct net positions for different types of traders and to analyze their relationship with oil price movements.
+
+---
+
+### econometrics
+
+This folder contains the econometric analysis performed in the project.
+
+It includes the results of several **OLS regression models**, as well as documents explaining the regression outputs and comparing different model specifications. These analyses investigate how changes in trader positioning and macroeconomic variables affect oil price movements.
+
+---
+
+### analysis
+
+This folder contains explanations of the **Python implementation and results**.
+
+The documents describe how the datasets were processed, how the econometric models were implemented, and how the statistical results were interpreted.
+
+---
+
+### presentation
+
+This folder contains the **presentation slides** used to summarize the project.
+
+The presentation highlights the research question, the econometric methodology, and the key findings of the analysis in a concise and visual format.
